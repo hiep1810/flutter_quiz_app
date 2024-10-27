@@ -32,7 +32,7 @@ class StartScreen extends StatelessWidget {
               side: const BorderSide(
                   color: Colors.transparent), // Transparent border
             ),
-            icon: const Icon(Icons.play_arrow),
+            icon: const Icon(Icons.play_arrow, color: Colors.white),
             label: const Text(
               'Start Quiz',
               textAlign: TextAlign.center,
